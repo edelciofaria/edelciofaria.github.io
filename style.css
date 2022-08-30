@@ -1,0 +1,85 @@
+body{
+    background: #E5E5E5;
+    /*background: #C4C4C4;*/
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        color: #0A3871;
+}
+.alura{
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    bottom: 0%;
+}
+.entrada{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 200px;
+    top: 150px;
+    padding: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    border: 0;
+}
+textarea::placeholder {
+    color: #0A3871;
+}
+.saida{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 1000px;
+    padding: 30px;
+    top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FFFFFF;
+    color: #0A3871;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.pesquisa{
+    position: absolute;
+    width: 310px;
+    height: 280px;
+    left: 1000px;
+    top: 280px;
+    opacity: 0.2;
+}
+.botoes{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    margin-top: 25%;
+}
+.crip{
+    width: 328px;
+    height: 67px;
+    color: #E5E5E5;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.descrip{
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;;
+}
